@@ -1,0 +1,162 @@
+
+h2.center{
+    text-align: center; 
+}
+
+
+
+
+
+.parent{
+    position: relative; 
+}
+
+.over-vid{
+    position: absolute;
+    top: 30%;
+    right: 45%;
+    width: 50%; 
+    height: auto;
+    
+  
+}
+
+img.headshot{
+    float:left; 
+   
+}
+
+p.text {
+    float:right; 
+}
+
+img.background{
+    width: 30%; 
+    height: auto; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    
+}
+
+img.home {
+    width: 100%; 
+    height: auto; 
+    
+}
+
+
+ul.topnav {
+    
+    width: 100%; 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    background-color: black; 
+    position: -webkit-sticky; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1; 
+}
+
+ul.topnav li{
+    float: left; 
+}
+
+ul.topnav li a {
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 15px 20px; 
+    text-decoration: none; 
+}
+
+ul.topnav li a:hover {
+    background-color: green; 
+}
+
+ul.topnav li a.active{
+    background: green; 
+}
+
+ul.topnav li.right{
+    float: right; 
+    color: white; 
+    padding: 12px 20px; 
+    font-family: cursive; 
+    font-style: italic;
+    
+}
+
+ul.bottomnav {
+    display: flex; 
+    justify-content: center; 
+    width: 100%; 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    background-color: black; 
+}
+
+ul.bottomnav li{
+   float: left;
+    
+}
+
+ul.bottomnav li a{
+    display: block; 
+    color: white;  
+    text-align: center; 
+    padding: 15px 20px; 
+    text-decoration: none; 
+}
+
+ul.bottomnav li a:hover{
+    background-color: green; 
+}
+
+
+
+@media screen and (max-width: 600px){
+   ul.topnav li {
+        float:none;
+    }
+    
+   ul.bottomnav{
+        float: none; 
+    }
+    
+    
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
